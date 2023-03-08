@@ -1,0 +1,21 @@
+.products-container {
+  display: flex;
+  flex-direction: column;
+  h2 {
+    font-size: 1.5rem;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    color: #103295;
+    margin-bottom: 1rem;
+  }
+
+  .button {
+    background-color: #103295;
+    color: white !important;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem ;
+    margin-bottom: 2rem;
+    width: fit-content;
+    align-self: flex-end;
+  }
+}
